@@ -8,6 +8,7 @@ authors = ["Quentin Fortier <qpfortier@gmail.com>"]
 python = "^3.7"
 jupyter = "^1.0.0"
 ortools = "^8.1.8487"
+mip = "^1.13.0"
 
 [tool.poetry.dev-dependencies]
 

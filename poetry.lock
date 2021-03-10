@@ -352,6 +352,17 @@ optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
 
 [[package]]
+name = "mip"
+version = "1.13.0"
+description = "Python tools for Modeling and Solving Mixed-Integer Linear     Programs (MIPs)"
+category = "main"
+optional = false
+python-versions = ">3.5.0"
+
+[package.dependencies]
+cffi = "*"
+
+[[package]]
 name = "mistune"
 version = "0.8.4"
 description = "The fastest markdown parser in pure Python"
@@ -788,7 +799,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "46b760d6cdbef4d031c006774de6c5aff74e339a0e57f928f2fc84748dbde61b"
+content-hash = "f63d476a6c399258cf50d09027222531c6fdaaf03ff675392368cbc3dbef8142"
 
 [metadata.files]
 absl-py = [
@@ -981,6 +992,10 @@ markupsafe = [
     {file = "MarkupSafe-1.1.1-cp38-cp38-win32.whl", hash = "sha256:596510de112c685489095da617b5bcbbac7dd6384aeebeda4df6025d0256a81b"},
     {file = "MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be"},
     {file = "MarkupSafe-1.1.1.tar.gz", hash = "sha256:29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"},
+]
+mip = [
+    {file = "mip-1.13.0-py3-none-any.whl", hash = "sha256:62b75ac7580b0d13f6113ccace633160e7f9c2e07631f69ed36405f2ff035863"},
+    {file = "mip-1.13.0.tar.gz", hash = "sha256:b22cb3fad91269a5f139d77fc13839e57132d90b9c697ed2791cf7bb14fbcc7a"},
 ]
 mistune = [
     {file = "mistune-0.8.4-py2.py3-none-any.whl", hash = "sha256:88a1051873018da288eee8538d476dffe1262495144b33ecb586c4ab266bb8d4"},
